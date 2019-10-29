@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="2.js"></script>
+	<script>
+		console.log(api.codeHandler)
+		$.ajax({
+			type:'post',
+			url:api.codeHandler,
+			data:{
+				user_id:userId
+			},
+			success:function(e){
+				if(e.data.code==200){
+					//数据请求成功，操作数据
+				}else{
+					alert(e.data.msg)//报错信息
+				}
+			}
+		})
+	</script>
+</head>
+<body>
+	<form action="http://localhost:8000/upload" method="post" enctype="multipart/form-data">
+		用户：<input type="text" name="user">
+		密码：<input type="password" name="psd">
+		<input type="file" name="f1">
+		<input type="submit" value="提交">
+
+	</form>
+	
+</body>
+</html>
