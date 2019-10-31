@@ -14,22 +14,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5.泛型.ts">
+        <entry file="file://$PROJECT_DIR$/6.操作数据库的库.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="135" column="38" lean-forward="true" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+            <state relative-caret-position="378">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.泛型.js">
+        <entry file="file://$PROJECT_DIR$/6.操作数据库的库.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="131" column="23" lean-forward="true" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="30" column="19" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -47,6 +44,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getInfo3</find>
+      <find>interface</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -61,6 +59,8 @@
         <option value="$PROJECT_DIR$/interface.ts" />
         <option value="$PROJECT_DIR$/4.interface.ts" />
         <option value="$PROJECT_DIR$/5.泛型.ts" />
+        <option value="$PROJECT_DIR$/操作数据库的库.ts" />
+        <option value="$PROJECT_DIR$/6.操作数据库的库.ts" />
       </list>
     </option>
   </component>
@@ -80,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,13 +91,12 @@
             <path>
               <item name="typescript" type="b2602c69:ProjectViewProjectNode" />
               <item name="typescript" type="462c0819:PsiDirectoryNode" />
-              <item name="5.泛型.ts" type="620a8d5e:NestingTreeNode" />
+              <item name="6.操作数据库的库.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.5.泛型.js">
+  <component name="RunManager" selected="Node.js.6.操作数据库的库.js">
     <configuration name="3.object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/3.object.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -132,8 +132,12 @@
     <configuration name="5.泛型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/5.泛型.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="6.操作数据库的库.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/6.操作数据库的库.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.6.操作数据库的库.js" />
         <item itemvalue="Node.js.5.泛型.js" />
         <item itemvalue="Node.js.4.interface.js" />
         <item itemvalue="Node.js.3.object.js" />
@@ -162,11 +166,16 @@
       <workItem from="1571897358413" duration="484000" />
       <workItem from="1571973636430" duration="2075000" />
       <workItem from="1571990951201" duration="1533000" />
+      <workItem from="1572329161791" duration="940000" />
+      <workItem from="1572345827199" duration="966000" />
+      <workItem from="1572399579251" duration="3002000" />
+      <workItem from="1572426293496" duration="3646000" />
+      <workItem from="1572485808748" duration="163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28060000" />
+    <option name="totallyTimeSpent" value="36777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,7 +190,7 @@
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1350278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1350278" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -205,8 +214,8 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/3.object.js" />
         <option value="$PROJECT_DIR$/5.泛型.js" />
+        <option value="$PROJECT_DIR$/3.object.js" />
       </list>
     </option>
   </component>
@@ -272,13 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4.interface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -288,18 +290,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.泛型.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="131" column="23" lean-forward="true" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+        <state relative-caret-position="567">
+          <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="115" column="13" lean-forward="true" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/5.泛型.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="135" column="38" lean-forward="true" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+        <state relative-caret-position="206">
+          <caret line="83" column="36" lean-forward="true" selection-start-line="83" selection-start-column="36" selection-end-line="83" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.操作数据库的库.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.操作数据库的库.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="19" selection-end-line="42" />
         </state>
       </provider>
     </entry>
